@@ -16,13 +16,13 @@ function adicionarCampo() {
     const novoCampo = document.createElement('div');
     novoCampo.classList.add('campo');
     novoCampo.innerHTML = `
-          <label for="titulo-${campoCount}" class="fonte">Título ${campoCount}:</br></label>
+          <label for="titulo-${campoCount}" class="fonte">Título ${campoCount}:</label>
           <input type="text" name="titulo-${campoCount}" id="titulo-${campoCount}" class="titulo">
       
-          <label for="texto-${campoCount}" class="fonte">Texto ${campoCount}:</br></label>
+          <label for="texto-${campoCount}" class="fonte">Texto ${campoCount}:</label>
           <textarea name="texto-${campoCount}" id="texto-${campoCount}" class="texto"></textarea>
       
-          <label for="imagem-${campoCount}" class="fonte">Imagem ${campoCount}:</br></label>
+          <label for="imagem-${campoCount}" class="fonte">Imagem ${campoCount}:</label>
           <input type="file" name="imagem" id="imagem-${campoCount}" class="imagem" accept=".jpg,.jpeg,.png">
     `;
 
