@@ -1,0 +1,124 @@
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   
+  }
+
+.block{
+    padding: 2em;
+    background-color: white;
+
+}
+
+  form {
+    display: flex;
+    width: 25em;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(36, 24, 20);
+  }
+
+  .fonte{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .titulo-h2{
+    width: 100%;
+    border:1px solid black;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 1em;
+    background-color: rgb(36, 24, 20);
+    color: wheat;
+  }
+
+  .publicar{
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    border-radius: none;
+    background-color: brown;
+    box-shadow: none;
+    border-style: none;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: wheat;
+    transition: ease-in-out 0.25s;
+  }
+  .publicar:hover{
+    background-color: wheat;
+    color: rgb(36, 24, 20);
+    border-top: 1px solid rgb(36, 24, 20);
+  }
+
+#add{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  .add-campo{
+    padding: 0.7em 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius: 500em;
+    background-color: brown;
+    box-shadow: none;
+    border-style: none;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: wheat;
+    transition: ease-in-out 0.25s;
+  }
+  .add-campo:hover{
+    background-color: wheat;
+    color: rgb(36, 24, 20);
+    border: 1px solid rgb(36, 24, 20);
+  }
+  
+  .titulo{
+    width: 90%;
+    margin: 1em;
+    min-height: 2em;
+    color: rgb(36, 24, 20);
+
+  }
+
+  .texto{
+    width: 90%;
+    margin: 1em;
+    min-height: 4em;
+    color: rgb(36, 24, 20);
+
+  }
+
+  .imagem{
+    width: 90%;
+    margin: 2em;
+    color: rgb(36, 24, 20);
+  }
+
+  #add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .obrigatorio{
+    color: red;
+  }
