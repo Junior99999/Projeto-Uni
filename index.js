@@ -1,14 +1,6 @@
-const express = require('express');
-const session =  require('express-session');
+const http = require('http');
+const app = require('./app')
+const port = process.env.PORT || 3000;
+const server = http.createServer(app);
+server.listen(port);
 
-const app = express();
-
-//CONFIGURÇÃO DO SISTEMA\\
-
-app.get('/',  function(req,res){
-        res.send('Olá mundo')
-})
-
-app.listen(8888, function(){
-    console.log("Conexão Inicializada")
-})
