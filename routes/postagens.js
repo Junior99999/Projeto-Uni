@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
+    res.render('form-post.ejs');
     res.status(200).send({
         mensagen: 'Retorna postagem'
     });
